@@ -337,6 +337,8 @@ GEM
     mustache (1.1.0)
     mustermann (1.0.3)
     mysql2 (0.5.2)
+    mysql2 (0.5.2-x64-mingw32)
+    mysql2 (0.5.2-x86-mingw32)
     nio4r (2.4.0)
     nio4r (2.4.0-java)
     nokogiri (1.10.4)
@@ -386,7 +388,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     rdoc (6.0.4)
-    redcarpet (3.2.3)
+    redcarpet (3.5.0)
     redis (4.1.2)
     redis-namespace (1.6.0)
       redis (>= 3.0.4)
@@ -575,7 +577,7 @@ DEPENDENCIES
   rack-cache (~> 1.2)
   rails!
   rake (>= 11.1)
-  redcarpet (~> 3.2.3)
+  redcarpet (~> 3.5.0)
   redis (~> 4.0)
   redis-namespace
   resque
